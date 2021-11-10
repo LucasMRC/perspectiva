@@ -19,16 +19,16 @@
             Primero, confianza en mí, en Lucas. En que las decisiones que he tomado me trajeron a este lugar. <em>Que no me ha salido tan mal, después de todo</em>. Y que con el tiempo, he ido desarrollando un criterio para tomar decisiones. Bueno o malo, <strong>pero propio</strong>. Messirve.
         </p>
         <p>
-            Segundo, <strong>confianza en la otra parte</strong>. A estas alturas ya he aprendido que las cosas toman sentido con el tiempo. <em>La historia les va dando significado</em>. Difícilmente pueda yo ver hoy cómo se van a desenvolver los acontecimientos. En la mayoría de los casos, no me queda más que tomar una decisión. Jugármela, y después confiar.
+            Segundo, <strong>confianza en la otra parte</strong>. A estas alturas ya he aprendido que las cosas toman sentido con el tiempo. <em>La historia les va dando significado</em>. Difícilmente pueda ver hoy cómo se van a desenvolver los acontecimientos. En la mayoría de los casos, no me queda más que tomar una decisión. Jugármela, y después confiar.
         </p>
         <p>
             Quizás la vara vaya por aquel lado. En toda esta incertidumbre, si logro que todo siga teniendo sentido. ¿Con cuánta flexibilidad y elegancia puedo seguir dándole forma a mi experiencia de estar vivo?
         </p>
         <p>
-            Así, doy lugar a una segunda norma de convivencia. Y es que <em>la gente siempre eligirá un lugar u otro para decidir si lo que hago está bien</em>. Qué saben ellos.
+            Así, doy lugar a una <strong>segunda norma de convivencia</strong>. Y es que <em>la gente siempre eligirá un lugar u otro para decidir si lo que hago está bien</em>. Qué saben ellos.
         </p>
         <p>
-            Por mi parte, <strong>yo dejo que mi capacidad para elegir una perspectiva propia</strong> sea la métrica por la que mido mi vida.
+            Por mi parte, yo dejaré que mi capacidad para elegir una perspectiva propia sea la métrica por la que mido mi vida.
         </p>
     </article>
 </main>
