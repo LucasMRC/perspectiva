@@ -47,9 +47,9 @@
         margin-bottom: 5rem;
     }
 
-    /* article p, article p em {
+    article p, article p em {
         letter-spacing: .025rem;
-    } */
+    }
 
     article p:first-of-type::first-letter {
         font-size: 2.5rem;
