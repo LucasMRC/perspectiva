@@ -36,13 +36,14 @@
 <style>
 
     main {
-        width: 50%;
-        padding: 5rem 12rem;
+        width: 100%;
+        padding: 5rem 3rem;
         min-height: 100vh;
+        box-sizing: border-box;
     }
 
     article {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 2rem;
         margin-bottom: 5rem;
     }
@@ -53,6 +54,17 @@
 
     article p:first-of-type::first-letter {
         font-size: 2.5rem;
+    }
+
+    @media screen and (min-width: 480px) {
+        main {
+            width: 65%;
+            padding: 5rem 0 5rem 12rem;
+        }
+
+        article {
+            font-size: 1.2rem;
+        }
     }
 
 </style>
