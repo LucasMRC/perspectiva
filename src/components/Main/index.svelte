@@ -25,7 +25,7 @@
             Quizás la vara vaya por aquel lado. En toda esta incertidumbre, si logro que todo siga teniendo sentido. ¿Con cuánta flexibilidad y elegancia puedo seguir dándole forma a mi experiencia de estar vivo?
         </p>
         <p>
-            Así, doy lugar a una <strong>segunda norma de convivencia</strong>. Y es que <em>la gente siempre eligirá un lugar u otro para decidir si lo que hago está bien</em>. Qué saben ellos.
+            Así, doy lugar a una <strong>segunda norma de convivencia</strong>: La Perspectiva. Y es que <em>la gente siempre eligirá un lugar u otro para decidir si lo que hago está bien</em>. Qué saben ellos.
         </p>
         <p>
             Por mi parte, yo dejaré que mi capacidad para elegir una perspectiva propia sea la métrica por la que mido mi vida.
