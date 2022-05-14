@@ -2,7 +2,7 @@
 
 <footer>
     <p>
-        2021 - LucasMRC
+        2022 - LucasMRC
     </p>
 </footer>
 

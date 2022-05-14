@@ -14,6 +14,7 @@
 
 	div.body {
 		position: relative;
+		scroll-behavior: smooth;
 	}
 
 </style>

@@ -2,12 +2,6 @@
     import { onMount } from "svelte";
 
     const fullTitle = 'Perspectiva';
-    // let title = '';
-    // let count = 0;
-    // const interval = setInterval(() => {
-    //     title = fullTitle.slice(0, count++);
-    //     if (title === fullTitle) clearInterval(interval);
-    // }, 100);
     onMount(() => {
         const titleElement = document.querySelector('h1.title') as HTMLHeadingElement;
         setTimeout(() => titleElement.style.opacity = '.5', 0);
