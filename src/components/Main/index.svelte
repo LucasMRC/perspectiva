@@ -1,28 +1,30 @@
 <script lang="ts">
     import ArticleOne from './articleOne.svelte';
     import ArticleTwo from './articleTwo.svelte';
+    import { article } from '../../utils/stores';
+
+    let currentArticle: number;
+
+    article.subscribe(newArticle => {
+        currentArticle = newArticle;
+    });
+
 </script>
 
 <main>
-    <ArticleOne />
-    <hr />
-    <!-- <ArticleTwo /> -->
+
+    <!-- svelte-ignore component-name-lowercase -->
+    <article
+        id="article"
+    >
+        {#if currentArticle === 1}
+            <ArticleOne />
+        {/if}
+        {#if currentArticle === 2}
+            <ArticleTwo />
+        {/if}
+        <!-- {#if article === 3}
+            <ArticleThree />
+        {/if} -->
+    </article>
 </main>
-
-<style>
-
-    main {
-        width: 100%;
-        padding: 5rem 3rem;
-        min-height: 100vh;
-        box-sizing: border-box;
-    }
-
-    @media screen and (min-width: 480px) {
-        main {
-            width: 65%;
-            padding: 5rem 0 5rem 12rem;
-        }
-    }
-
-</style>

@@ -1,11 +1,7 @@
 <script lang="ts">
-    import Navbar from "../Navbar/index.svelte";
+    import Navbar from "./Navbar/index.svelte";
     import Title from "./Title.svelte";
-
-
-
 </script>
-
 
 <div class="hero">
     <Navbar />
