@@ -1,11 +1,10 @@
 <script lang="ts">
-// import MenuIcon from "./MenuIcon.svelte";
-
+import Menu from "./Menu.svelte";
 
 </script>
 
 <div class="navbar">
-    <!-- <MenuIcon /> -->
+    <Menu />
 </div>
 
 <style>
