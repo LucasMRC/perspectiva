@@ -1,7 +1,12 @@
 
 <script lang="ts">
+    import { article, locale } from '@utils/stores';
 
-    import { article } from '../../../utils/stores';
+    export let handleClickOnMenu: () => void;
+    export let showMenu: boolean;
+
+    let currentArticle = 1;
+    let currentLocale = 'en';
 
     const handleArticleChange = (newArticle: number) => {
         currentArticle = newArticle;
@@ -9,11 +14,9 @@
         handleClickOnMenu();
     };
 
-    export let handleClickOnMenu: () => void;
-    export let showMenu: boolean;
-
-    let currentArticle = 1;
-
+    locale.subscribe(newLocale => {
+        currentLocale = newLocale;
+    });
 </script>
 
 <div
@@ -32,7 +35,7 @@
                 href="#article"
                 style={currentArticle === 1 ? 'text-decoration: underline;' : ''}
             >
-                Por qué perspectiva
+                {currentLocale === 'es' ? 'Por qué perspectiva' : 'Why perspective'}
             </a>
         </li>
         <li
@@ -43,7 +46,7 @@
                 href="#article"
                 style={currentArticle === 2 ? 'text-decoration: underline;' : ''}
             >
-                Más en un toque
+                {currentLocale === 'es' ? 'Más en un toque' : 'More coming soon'}
             </a>
         </li>
     </ul>

@@ -1,9 +1,10 @@
 <script lang="ts">
-    import ArticleOne from './articleOne.svelte';
-    import ArticleTwo from './articleTwo.svelte';
-    import { article } from '../../utils/stores';
+    import ArticleOne from './articles/articleOne.svelte';
+    import ArticleTwo from './articles/articleTwo.svelte';
+	import { article } from '@utils/stores';
 
     let currentArticle: number;
+    export let language: string;
 
     article.subscribe(newArticle => {
         currentArticle = newArticle;
@@ -18,13 +19,13 @@
         id="article"
     >
         {#if currentArticle === 1}
-            <ArticleOne />
+            <ArticleOne
+                language={language}
+            />
+        {:else if currentArticle === 2}
+            <ArticleTwo
+                language={language}
+            />
         {/if}
-        {#if currentArticle === 2}
-            <ArticleTwo />
-        {/if}
-        <!-- {#if article === 3}
-            <ArticleThree />
-        {/if} -->
     </article>
 </main>
