@@ -11,7 +11,6 @@
 	} else {
 		locale.update(() => 'en');
 	}
-
 </script>
 
 <div class="body">
@@ -21,10 +20,8 @@
 </div>
 
 <style>
-
 	div.body {
 		position: relative;
 		scroll-behavior: smooth;
 	}
-
 </style>

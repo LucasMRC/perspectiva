@@ -1,4 +1,3 @@
-
 <script lang="ts">
     export let showMenu: boolean;
     export let onClick: () => void;
@@ -15,7 +14,6 @@
 </div> 
 
 <style>
-
     #menu-icon {
         position: absolute;
         left: 3rem;
@@ -51,26 +49,26 @@
     }
 
     #menu-icon.is-active .line:nth-child(2) {
-        -webkit-transform: translateX(-10px) rotate(90deg);
-        -ms-transform: translateX(-10px) rotate(90deg);
-        -o-transform: translateX(-10px) rotate(90deg);
-        transform: translateX(-10px) rotate(90deg);
+        -webkit-transform: translateX(-25px) rotate(90deg);
+        -ms-transform: translateX(-25px) rotate(90deg);
+        -o-transform: translateX(-25px) rotate(90deg);
+        transform: translateX(-25px) rotate(90deg);
         transform-origin: 0 0;
-        width: 60px; /* 30px * articles in the list */
+        width: 25px; /* 30px * articles in the list */
     }
 
     #menu-icon.is-active .line:nth-child(1) {
         margin-bottom: 0;
-        width: 55px;
+        width: 65px;
     }
 
     #menu-icon.is-active .line:nth-child(3) {
         margin-top: 0;
-        -webkit-transform: translateY(60px);
-        -ms-transform: translateY(60px);
-        -o-transform: translateY(60px);
-        transform: translateY(60px);
-        width: 55px;
+        -webkit-transform: translateX(-25px) rotate(90deg) ;
+        -ms-transform: translateX(-25px) rotate(90deg) ;
+        -o-transform: translateX(-25px) rotate(90deg) ;
+        transform: translateX(-25px) rotate(90deg) ;
+        transform-origin: 0 0;
+        width: 0px;
     }
-
 </style>

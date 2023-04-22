@@ -52,7 +52,7 @@ body * {
 }
 
 a {
-	color: rgb(0,100,200);
+	color: var(--primary-light);
 	text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	text-decoration: underline;
 }
 
 label {
@@ -139,15 +139,4 @@ footer p {
 	text-align: center;
 	margin: 0;
 	line-height: 3rem;
-}
-
-@media screen and (min-width: 480px) {
-	main {
-		width: 65%;
-		padding: 5rem 0 5rem 12rem;
-	}
-
-	article {
-		font-size: 1.2rem;
-	}
 }

@@ -1,18 +1,11 @@
-
 <script lang="ts">
-    import { article, locale } from '@utils/stores';
+    import { locale } from '@utils/stores';
 
     export let handleClickOnMenu: () => void;
     export let showMenu: boolean;
 
     let currentArticle = 1;
     let currentLocale = 'en';
-
-    const handleArticleChange = (newArticle: number) => {
-        currentArticle = newArticle;
-        article.update(() => newArticle);
-        handleClickOnMenu();
-    };
 
     locale.subscribe(newLocale => {
         currentLocale = newLocale;
@@ -29,25 +22,12 @@
     >
         <li
             class="menu-item"
-            on:click={() => handleArticleChange(1)}
-        >
-            <a
-                href="#article"
-                style={currentArticle === 1 ? 'text-decoration: underline;' : ''}
-            >
-                {currentLocale === 'es' ? 'Por qué perspectiva' : 'Why perspective'}
-            </a>
-        </li>
-        <li
-            class="menu-item"
-            on:click={() => handleArticleChange(2)}
         >
             <a
                 href="#article"
                 style={currentArticle === 2 ? 'text-decoration: underline;' : ''}
             >
-                {currentLocale === 'es' ? 'Más en un toque' : 'More coming soon'}
-            </a>
+                {currentLocale === 'es' ? 'Artículos' : 'Articles'}
         </li>
     </ul>
 </div> 
@@ -70,10 +50,5 @@
 
     li.menu-item {
         line-height: 2rem;
-    }
-
-    li.menu-item a {
-        text-decoration: none;
-        color: var(--primary-light);
     }
 </style>

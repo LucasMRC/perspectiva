@@ -1,6 +1,5 @@
 <script lang="ts">
 import Menu from "./Menu.svelte";
-
 </script>
 
 <div class="navbar">
@@ -8,7 +7,6 @@ import Menu from "./Menu.svelte";
 </div>
 
 <style>
-
     div.navbar {
         display: flex;
         position: relative;
@@ -16,5 +14,4 @@ import Menu from "./Menu.svelte";
         justify-content: center;
         height: 8.5rem;
     }
-
 </style>
