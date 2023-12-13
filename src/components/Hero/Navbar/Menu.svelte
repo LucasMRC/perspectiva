@@ -15,5 +15,4 @@
 />
 <MenuList
     showMenu={showMenu}
-    handleClickOnMenu={handleClickOnMenu}
 />

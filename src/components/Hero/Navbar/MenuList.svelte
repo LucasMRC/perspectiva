@@ -1,21 +1,14 @@
 <script lang="ts">
     import { locale } from '@utils/stores';
 
-    export let handleClickOnMenu: () => void;
     export let showMenu: boolean;
-
-    let currentArticle = 1;
-    let currentLocale = 'en';
-
-    locale.subscribe(newLocale => {
-        currentLocale = newLocale;
-    });
 </script>
 
 <div
     id="menu-container"
-    style="opacity: {showMenu ? '1' : '0'};
-            pointer-events: {showMenu ? 'all' : 'none'};"
+    style="
+        opacity: {showMenu ? '1' : '0'};
+        pointer-events: {showMenu ? 'all' : 'none'};"
 >
     <ul
         class="menu-list"
@@ -25,9 +18,8 @@
         >
             <a
                 href="#article"
-                style={currentArticle === 2 ? 'text-decoration: underline;' : ''}
             >
-                {currentLocale === 'es' ? 'Artículos' : 'Articles'}
+                {$locale === 'es' ? 'Artículos' : 'Articles'}
         </li>
     </ul>
 </div> 

@@ -5,13 +5,17 @@
 
 <div
     on:click={onClick}
-    class={showMenu ? ' is-active' : ''}
+    role="button"
+    tabindex="0"
+    on:keydown={() => {}}
+    aria-label="Menu icon"
+    class={showMenu ? 'is-active' : ''}
     id="menu-icon"
 >
     <span class="line" />
     <span class="line" />
     <span class="line" />
-</div> 
+</div>
 
 <style>
     #menu-icon {
@@ -32,7 +36,7 @@
 
     #menu-icon .line {
         width: 25px;
-        height: 2px;
+        height: 1px;
         background-color: var(--primary-color);
         opacity: .5;
         display: block;

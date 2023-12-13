@@ -1,11 +1,5 @@
 <script lang="ts">
-    import { onMount } from "svelte";
-
     const fullTitle = 'Perspectiva';
-    onMount(() => {
-        const titleElement = document.querySelector('h1.title') as HTMLHeadingElement;
-        setTimeout(() => titleElement.style.opacity = '.5', 0);
-    });
 </script>
 
 <h1 class="title">
@@ -13,12 +7,20 @@
 </h1>
 
 <style>
+    @keyframes fade-in {
+        0% { opacity: 0; }
+        25% { opacity: 0; }
+        100% { opacity: .5; }
+    }
+
     h1.title {
         font-weight: 100;
         text-align: center;
         transition: opacity ease 2300ms;
-        opacity: 0;
         position: relative;
+        opacity: 1;
+        animation-name: fade-in;
+        animation-duration: 3s;
     }
 
     h1.title::after {
@@ -35,9 +37,9 @@
 
     @media screen and (min-width: 480px) {
         h1.title {
-            margin: 2rem 15rem 0;
             font-size: 8rem;
             letter-spacing: -0.6rem;
+            opacity: .5;
         }
 
         h1.title::after {
@@ -45,6 +47,5 @@
             top: 1rem;
             right: 6rem;
         }
-
     }
 </style>
