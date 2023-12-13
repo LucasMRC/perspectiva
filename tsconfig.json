@@ -3,6 +3,7 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
   "compilerOptions": {
+      "ignoreDeprecations": "5.0",
       /* Visit https://aka.ms/tsconfig.json to read more about this file */
       /* Projects */
       // "incremental": true,                              /* Enable incremental compilation */
