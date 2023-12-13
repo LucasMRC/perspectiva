@@ -1,8 +1,8 @@
     <script lang="ts">
-        export let language: string;
+        import { locale } from "@utils/stores";
     </script>
 
-    {#if language === 'es'}
+    {#if $locale === 'es'}
         <div>
             <p>
                 A veces me descubro sintiendo que <em>le encuentro la lógica a la vida</em>. Que puedo darle forma a los sucesos que acontecen (por lo menos, una forma medio intelectual). Que si veo las cosas desde una u otra perspectiva, entonces resignifico la experiencia y la modifico. Claro, el truco es sólo <strong>elegir la perspectiva</strong>.
@@ -35,7 +35,7 @@
                 Por mi parte, yo dejaré que mi capacidad para elegir una perspectiva propia sea la métrica por la que mido mi vida.
             </p>
         </div>
-    {:else if language === 'en'}
+    {:else if  $locale === 'en'}
         <div>
             <p>
                 Sometimes I find myself feeling that <em>I find the logic of life</em>. That I can shape the events that happen (at least, in a somewhat intellectual way). That if I look at things from one or another perspective, then I resignify the experience and modify it. Of course, the trick is just <strong>choosing the right perspective</strong>.

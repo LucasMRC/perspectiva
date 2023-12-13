@@ -1,15 +1,16 @@
 <script lang="ts">
-    export let language: string;
+    import { locale } from "@utils/stores";
+
 </script>
 
-{#if language === 'es'}
+{#if $locale === 'es'}
     <div>
         <p>
             Próximamente <strong>se vienen más artículos</strong>!
         </p>
         <p>Stay tuned! 😉</p>
     </div>
-{:else if language === 'en'}
+{:else if $locale === 'en'}
     <div>
         <p>
             More articles <strong>coming soon</strong>!
