@@ -11,7 +11,7 @@
                 También me pasa que a medida que pasa el tiempo, <em>cada vez son menos las certezas que tengo</em>. Así, mis acciones se encuentran escoltadas por preguntas, de esas que <strong>no puedo responder sin al menos ser imparcial</strong>.
             </p>
             <p>
-                Muy pocas son las cosas que hago sabiendo realmente <strong><em>si estoy actuando de manera correcta o inteligente</em></strong>. Para el resto de mi vida, no sé si estoy siendo paciente o me estoy dejando estar. Si aguantar un poco el dolor me ayuda a construir mi carácter, o es mejor tomar un analgésico porque necesito descansar. Si debo ayudar al otro, o en enfocarme y trabajar en pos de mis objetivos.
+                Muy pocas son las cosas que hago sabiendo realmente <strong><em>si estoy actuando de manera correcta o inteligente</em></strong>. Para el resto de mi vida, no sé si estoy siendo paciente o me estoy dejando estar. Si aguantar un poco el dolor me ayuda a construir mi carácter, o es mejor tomar un analgésico porque necesito descansar. Si debo ayudar al otro, o enfocarme y trabajar en pos de mis objetivos.
             </p>
             <p>
                 <em>No tengo métricas para medir mis decisiones</em>. Muchas de las cosas que hago son correctas y no lo son <strong>dependiendo del lugar desde el que se las mire</strong>. Pero no soy yo quien debe elegir ese lugar, a mí me toca actuar.
