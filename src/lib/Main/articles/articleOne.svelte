@@ -1,5 +1,5 @@
     <script lang="ts">
-        import { locale } from "@utils/stores";
+        import { locale } from "../../../utils/stores";
     </script>
 
     {#if $locale === 'es'}
@@ -17,7 +17,7 @@
                 <em>No tengo métricas para medir mis decisiones</em>. Muchas de las cosas que hago son correctas y no lo son <strong>dependiendo del lugar desde el que se las mire</strong>. Pero no soy yo quien debe elegir ese lugar, a mí me toca actuar.
             </p>
             <p>
-                Así que acá estoy, a mis 33 años, estableciendo acuerdos conmigo mismo, <strong>normas de convivencia</strong>. Principalmente, una especie de <em>norma de doble-confianza</em>.
+                Así que acá estoy, a mis 35 años, estableciendo acuerdos conmigo mismo, <strong>normas de convivencia</strong>. Principalmente, una especie de <em>norma de doble-confianza</em>.
             </p>
             <p>
                 Primero, confianza en mí, en Lucas. En que las decisiones que he tomado me trajeron a este lugar. <em>Que no me ha salido tan mal, después de todo</em>. Y que con el tiempo, he ido desarrollando un criterio para tomar decisiones. Bueno o malo, <strong>pero propio</strong>. Messirve.
@@ -50,7 +50,7 @@
                 <em>I don't have metrics to measure my decisions</em>. Many of the things I do are right or wrong <strong>depending on the place from which they are seen</strong>. But I'm not the one who should choose that place, I have me to act.
             </p>
             <p>
-                So here I am, at 33 years old, establishing agreements with myself, <strong>rules of coexistence</strong>. Mainly, a kind of <em>double-trust rule</em>.
+                So here I am, at 35 years old, establishing agreements with myself, <strong>rules of coexistence</strong>. Mainly, a kind of <em>double-trust rule</em>.
             </p>
             <p>
                 First, trust in me, in Lucas. That the decisions I have taken have brought me to this where I'm now. <em>That it hasn't gone so bad, after all</em>. And that over time, I have developed a criterion to make decisions. Good or bad, <strong>but my own</strong>. Messirve.

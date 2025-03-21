@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { locale } from '@utils/stores';
+    import { locale } from '../../../utils/stores';
 
     export let showMenu: boolean;
 </script>

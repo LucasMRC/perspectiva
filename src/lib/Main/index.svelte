@@ -1,6 +1,6 @@
 <script lang="ts">
     import ArticleOne from './articles/articleOne.svelte';
-	import { article, locale } from '@utils/stores';
+	import { article, locale } from '../../utils/stores';
     import ArticleTwo from './articles/articleTwo.svelte';
 
     const handleArticleChange = (newArticle: number) => {

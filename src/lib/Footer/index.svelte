@@ -1,5 +1,5 @@
 <footer>
     <p>
-        2023 - LucasMRC
+        2025 - LucasMRC
     </p>
 </footer>

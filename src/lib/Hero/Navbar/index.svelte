@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { locale } from '@utils/stores';
+    import { locale } from '../../../utils/stores';
     import Menu from "./Menu.svelte";
 
     function handleLocaleChange(e: Event) {
