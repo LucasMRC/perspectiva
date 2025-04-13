@@ -69,3 +69,9 @@
             </p>
         </div>
     {/if}
+
+<style>
+div {
+	text-wrap: balance;
+}
+</style>
