@@ -12,9 +12,9 @@
     class={showMenu ? 'is-active' : ''}
     id="menu-icon"
 >
-    <span class="line" />
-    <span class="line" />
-    <span class="line" />
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
 </div>
 
 <style>
