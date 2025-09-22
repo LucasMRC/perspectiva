@@ -36,6 +36,11 @@
             </li>
             <li>
                 <button on:click={() => handleArticleChange(2)} style={$article === 2 ? 'text-decoration: underline;' : ''}>
+                    {$locale === 'es' ? 'Canción del pasaje' : 'Fareway song'}
+                </button>
+            </li>
+            <li>
+                <button on:click={() => handleArticleChange(3)} style={$article === 3 ? 'text-decoration: underline;' : ''}>
                     {$locale === 'es' ? 'Más en un toque' : 'More coming soon'}
                 </button>
             </li>
