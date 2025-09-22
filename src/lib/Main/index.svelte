@@ -1,7 +1,8 @@
 <script lang="ts">
     import ArticleOne from './articles/articleOne.svelte';
-	import { article, locale } from '../../utils/stores';
     import ArticleTwo from './articles/articleTwo.svelte';
+	import { article, locale } from '../../utils/stores';
+    import StayTuned from './articles/stayTuned.svelte';
 
     const handleArticleChange = (newArticle: number) => {
         article.set(newArticle);
@@ -18,8 +19,10 @@
     >
         {#if $article === 1}
             <ArticleOne />
-        {:else}
+        {:else if $article === 2}
             <ArticleTwo />
+        {:else}
+            <StayTuned />
         {/if}
     </article>
     <sidebar
